@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <style> 
+            .tab { 
+                display: inline-block; 
+                margin-left: 40px; 
+            } 
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  }
+
+  li {
+  float: left;
+  }
+            
+        </style> 
+        
+     </head>  
+    
+    <body >
+        <form action="https://www.w3schools.com/action_page.php"  autocomplete="on">
+            <div  >
+            <ul id = "nav" style="background-color: lightseagreen;">
+                <li>
+                  <img src="/vce.jpg/vce.jpg" width="90" height="90" /> 
+                </li>
+                <li>
+                  <h2 style = "text-align: center;margin-left: 425px;" >VASAVI COLLEGE OF ENGINEERING</h2>
+                </li>
+              </ul>
+              
+            </div>
+            <h3 style = "text-align: center;" >SUBJECTS REGISTRATION FORM</h3>
+            <br>
+            <br>
+            <label>First Name <span class="tab"></span></label><input type="text" name="First Name" required><br><br>
+            <label>Last Name  <span class="tab"></span></label><input type="text" name="Last Name" required><br><br>
+             <label>Date of Birth <span class="tab"></span></label><input type="date"  name="dob" required><br><br>
+            Gender<br>
+            <input type="radio" value="Male" Name="Gender"/>Male<br>
+            <input type="radio" value="Female" Name="Gender"/>Female<br>
+            <input type="radio" value="Others" Name="Gender"/>Others<br><br>
+            <label for="phone"> phone number:</label>
+            <input type="tel" id="phone" name="phone"  required><br><br>
+            <label ></label>Email <span class="tab"></span></label> <input type="email" id="email-id" required><br><br>
+            <b>subjects</b><br>
+            <i>Select any five subjects</i><br>
+            
+            <input type="checkbox" value="DBMS" Name="subjects"/>DBMS<br>
+            <input type="checkbox" value="EFE" Name="subjects"/>EFE<br>
+            <input type="checkbox" value="CN" Name="subjects"/>CN<br>
+            <input type="checkbox" value="WPS" Name="subjects"/>WPS<br>
+            <input type="checkbox" value="NUMERICAL METHODS" Name="subjects"/>NUMERICAL METHODS<br>
+            <input type="checkbox" value="HVPE" Name="subjects"/>HVPE<br><br>
+            <input type="file" id="myFile" name="filename" required><br>
+            <br>
+            <input type="submit" name="submit" ><br>
+            
+
+           <br>
+           
+        </form>
+        
+    </body>
+</html>
